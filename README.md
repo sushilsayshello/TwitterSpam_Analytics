@@ -7,5 +7,5 @@ Compute variance and standard deviation of the 'no_follower' column for spammer 
 Compute the numeric summary of the 'no_tweets' column for spammer and non-spammer separately. Observe the results and explain if this column is a good feature for distinguishing spammer and non-spammer. 
 Plot the histogram to show the distribution of the column:'no_char'. In the generated plot, the plot name is "histogram of the number of chars ", Y-axis is "frequency", and X-axis is 'Number of chars'.
 
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/c48187c1-2fb5-4de6-89d1-40de6f695a6e">
 
-![Uploading image.png…]()
