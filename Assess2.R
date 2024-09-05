@@ -11,6 +11,14 @@ library(ggplot2)
 str(TwitterSpam)
 
 
-
+# Create an overlapping density plot of the 'no_follower' column
+ggplot(TwitterSpam, aes(x = no_follower, fill = factor(label))) +
+  geom_density(alpha = 0.5) +
+  xlim(c(0, 6000)) +
+  labs(title = "Overlapping Density Plot of Followers Count (no_follower)",
+       x = "Number of Followers",
+       y = "Density",
+       fill = "Account Type") +
+  theme_minimal()
 
 
